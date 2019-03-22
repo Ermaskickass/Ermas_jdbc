@@ -26,7 +26,7 @@ public class ArticleMain {
 		article.setContent("This is content.");
 		article.setUserId("1");
 		article.setName("황윤성");
-		articleDao.upaddArticle(article);
+		articleDao.addArticle(article);
 	}
 	
 	public void updateArticle() {
